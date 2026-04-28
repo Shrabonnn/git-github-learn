@@ -9,7 +9,8 @@ class School extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text("School created")
+          Text("School created"),
+          Text("Canteen"),
         ],
       ),
     );
