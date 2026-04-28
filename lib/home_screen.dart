@@ -8,7 +8,12 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Center(
-        child: Text("hello"),
+        child: Column(
+          children: [
+            Text("hello"),
+            Text("for stash")
+          ],
+        ),
       ),
     );
   }
